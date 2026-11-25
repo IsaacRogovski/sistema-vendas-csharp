@@ -82,7 +82,6 @@
             // 
             textBoxCodigoCliente.Location = new Point(119, 43);
             textBoxCodigoCliente.Name = "textBoxCodigoCliente";
-            textBoxCodigoCliente.ReadOnly = true;
             textBoxCodigoCliente.Size = new Size(100, 23);
             textBoxCodigoCliente.TabIndex = 2;
             // 

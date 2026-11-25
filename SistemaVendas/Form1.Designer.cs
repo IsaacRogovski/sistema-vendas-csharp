@@ -46,6 +46,7 @@
             sistemaToolStripMenuItem = new ToolStripMenuItem();
             sobreToolStripMenuItem = new ToolStripMenuItem();
             sairToolStripMenuItem = new ToolStripMenuItem();
+            button1 = new Button();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -173,6 +174,16 @@
             sairToolStripMenuItem.Text = "Sair";
             sairToolStripMenuItem.Click += sairToolStripMenuItem_Click;
             // 
+            // button1
+            // 
+            button1.Location = new Point(170, 140);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 2;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // FormPrincipal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -181,6 +192,7 @@
             BackgroundImage = Properties.Resources.IFSP1;
             BackgroundImageLayout = ImageLayout.Center;
             ClientSize = new Size(800, 450);
+            Controls.Add(button1);
             Controls.Add(menuStrip1);
             DoubleBuffered = true;
             Icon = (Icon)resources.GetObject("$this.Icon");
@@ -190,6 +202,7 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Sistema de Vendas";
             WindowState = FormWindowState.Maximized;
+            Load += FormPrincipal_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ResumeLayout(false);
@@ -215,5 +228,6 @@
         private ToolStripMenuItem sobreToolStripMenuItem;
         private ToolStripMenuItem sairToolStripMenuItem;
         private ToolStripMenuItem exibirAtivasToolStripMenuItem;
+        private Button button1;
     }
 }

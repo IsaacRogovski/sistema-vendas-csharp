@@ -70,7 +70,6 @@
             // 
             textBoxCodigoCategoria.Location = new Point(155, 45);
             textBoxCodigoCategoria.Name = "textBoxCodigoCategoria";
-            textBoxCodigoCategoria.ReadOnly = true;
             textBoxCodigoCategoria.Size = new Size(100, 23);
             textBoxCodigoCategoria.TabIndex = 6;
             // 
