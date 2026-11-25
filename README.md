@@ -51,7 +51,7 @@ cd sistema-vendas-csharp
 
 ### 2. Abrir o projeto
 
-Abra o arquivo `.sln` na pasta do projeto utilizando o Visual Studio.
+Abra o arquivo `.slnx` na pasta do projeto utilizando o Visual Studio.
 
 Caso necessário, aguarde a restauração automática dos pacotes NuGet.
 
@@ -83,7 +83,7 @@ A estrutura será organizada de acordo com a implementação do sistema.
 
 ```text
 sistema-vendas-csharp/
-├── SistemaVendas.sln
+├── SistemaVendas.slnx
 ├── SistemaVendas/
 │   ├── Forms/
 │   ├── Database/
