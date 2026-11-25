@@ -20,3 +20,27 @@ C:\Users\isaac\source\repos\SistemaVendas\SistemaVendas\obj\Debug\net10.0-window
 C:\Users\isaac\source\repos\SistemaVendas\SistemaVendas\obj\Debug\net10.0-windows\SistemaVendas.FormProduto.resources
 C:\Users\isaac\source\repos\SistemaVendas\SistemaVendas\obj\Debug\net10.0-windows\SistemaVendas.FormSobre.resources
 C:\Users\isaac\source\repos\SistemaVendas\SistemaVendas\obj\Debug\net10.0-windows\SistemaVendas.Properties.Resources.resources
+D:\IFSP\2ºSemestre\Programação Orientada Objeto\11 24 (projeto)\sistema-vendas-csharp\SistemaVendas\bin\Debug\net10.0-windows\SistemaVendas.exe
+D:\IFSP\2ºSemestre\Programação Orientada Objeto\11 24 (projeto)\sistema-vendas-csharp\SistemaVendas\bin\Debug\net10.0-windows\SistemaVendas.deps.json
+D:\IFSP\2ºSemestre\Programação Orientada Objeto\11 24 (projeto)\sistema-vendas-csharp\SistemaVendas\bin\Debug\net10.0-windows\SistemaVendas.runtimeconfig.json
+D:\IFSP\2ºSemestre\Programação Orientada Objeto\11 24 (projeto)\sistema-vendas-csharp\SistemaVendas\bin\Debug\net10.0-windows\SistemaVendas.runtimeconfig.dev.json
+D:\IFSP\2ºSemestre\Programação Orientada Objeto\11 24 (projeto)\sistema-vendas-csharp\SistemaVendas\bin\Debug\net10.0-windows\SistemaVendas.dll
+D:\IFSP\2ºSemestre\Programação Orientada Objeto\11 24 (projeto)\sistema-vendas-csharp\SistemaVendas\bin\Debug\net10.0-windows\SistemaVendas.pdb
+D:\IFSP\2ºSemestre\Programação Orientada Objeto\11 24 (projeto)\sistema-vendas-csharp\SistemaVendas\obj\Debug\net10.0-windows\SistemaVendas.FormPrincipal.resources
+D:\IFSP\2ºSemestre\Programação Orientada Objeto\11 24 (projeto)\sistema-vendas-csharp\SistemaVendas\obj\Debug\net10.0-windows\SistemaVendas.FormCategoria.resources
+D:\IFSP\2ºSemestre\Programação Orientada Objeto\11 24 (projeto)\sistema-vendas-csharp\SistemaVendas\obj\Debug\net10.0-windows\SistemaVendas.FormCliente.resources
+D:\IFSP\2ºSemestre\Programação Orientada Objeto\11 24 (projeto)\sistema-vendas-csharp\SistemaVendas\obj\Debug\net10.0-windows\SistemaVendas.FormProduto.resources
+D:\IFSP\2ºSemestre\Programação Orientada Objeto\11 24 (projeto)\sistema-vendas-csharp\SistemaVendas\obj\Debug\net10.0-windows\SistemaVendas.FormSobre.resources
+D:\IFSP\2ºSemestre\Programação Orientada Objeto\11 24 (projeto)\sistema-vendas-csharp\SistemaVendas\obj\Debug\net10.0-windows\SistemaVendas.Properties.Resources.resources
+D:\IFSP\2ºSemestre\Programação Orientada Objeto\11 24 (projeto)\sistema-vendas-csharp\SistemaVendas\obj\Debug\net10.0-windows\SistemaVendas.csproj.GenerateResource.cache
+D:\IFSP\2ºSemestre\Programação Orientada Objeto\11 24 (projeto)\sistema-vendas-csharp\SistemaVendas\obj\Debug\net10.0-windows\SistemaVendas.GeneratedMSBuildEditorConfig.editorconfig
+D:\IFSP\2ºSemestre\Programação Orientada Objeto\11 24 (projeto)\sistema-vendas-csharp\SistemaVendas\obj\Debug\net10.0-windows\SistemaVendas.AssemblyInfoInputs.cache
+D:\IFSP\2ºSemestre\Programação Orientada Objeto\11 24 (projeto)\sistema-vendas-csharp\SistemaVendas\obj\Debug\net10.0-windows\SistemaVendas.AssemblyInfo.cs
+D:\IFSP\2ºSemestre\Programação Orientada Objeto\11 24 (projeto)\sistema-vendas-csharp\SistemaVendas\obj\Debug\net10.0-windows\SistemaVendas.csproj.CoreCompileInputs.cache
+D:\IFSP\2ºSemestre\Programação Orientada Objeto\11 24 (projeto)\sistema-vendas-csharp\SistemaVendas\obj\Debug\net10.0-windows\SistemaVendas.sourcelink.json
+D:\IFSP\2ºSemestre\Programação Orientada Objeto\11 24 (projeto)\sistema-vendas-csharp\SistemaVendas\obj\Debug\net10.0-windows\SistemaVendas.dll
+D:\IFSP\2ºSemestre\Programação Orientada Objeto\11 24 (projeto)\sistema-vendas-csharp\SistemaVendas\obj\Debug\net10.0-windows\refint\SistemaVendas.dll
+D:\IFSP\2ºSemestre\Programação Orientada Objeto\11 24 (projeto)\sistema-vendas-csharp\SistemaVendas\obj\Debug\net10.0-windows\SistemaVendas.pdb
+D:\IFSP\2ºSemestre\Programação Orientada Objeto\11 24 (projeto)\sistema-vendas-csharp\SistemaVendas\obj\Debug\net10.0-windows\SistemaVendas.genruntimeconfig.cache
+D:\IFSP\2ºSemestre\Programação Orientada Objeto\11 24 (projeto)\sistema-vendas-csharp\SistemaVendas\obj\Debug\net10.0-windows\ref\SistemaVendas.dll
+D:\IFSP\2ºSemestre\Programação Orientada Objeto\11 24 (projeto)\sistema-vendas-csharp\SistemaVendas\obj\Debug\net10.0-windows\SistemaV.B4BA3626.Up2Date

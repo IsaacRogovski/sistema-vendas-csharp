@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\IFSP\\2ºSemestre\\Programação Orientada Objeto\\11 24\\SistemaVendas\\SistemaVendas\\SistemaVendas\\SistemaVendas.csproj",
+      "projectUniqueName": "D:\\IFSP\\2ºSemestre\\Programação Orientada Objeto\\11 24 (projeto)\\sistema-vendas-csharp\\SistemaVendas\\SistemaVendas.csproj",
       "projectName": "SistemaVendas",
-      "projectPath": "D:\\IFSP\\2ºSemestre\\Programação Orientada Objeto\\11 24\\SistemaVendas\\SistemaVendas\\SistemaVendas\\SistemaVendas.csproj",
+      "projectPath": "D:\\IFSP\\2ºSemestre\\Programação Orientada Objeto\\11 24 (projeto)\\sistema-vendas-csharp\\SistemaVendas\\SistemaVendas.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "D:\\IFSP\\2ºSemestre\\Programação Orientada Objeto\\11 24\\SistemaVendas\\SistemaVendas\\SistemaVendas\\obj\\",
+      "outputPath": "D:\\IFSP\\2ºSemestre\\Programação Orientada Objeto\\11 24 (projeto)\\sistema-vendas-csharp\\SistemaVendas\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

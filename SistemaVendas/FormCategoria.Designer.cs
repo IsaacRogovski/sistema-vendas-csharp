@@ -70,6 +70,7 @@
             // 
             textBoxCodigoCategoria.Location = new Point(155, 45);
             textBoxCodigoCategoria.Name = "textBoxCodigoCategoria";
+            textBoxCodigoCategoria.ReadOnly = true;
             textBoxCodigoCategoria.Size = new Size(100, 23);
             textBoxCodigoCategoria.TabIndex = 6;
             // 
@@ -85,6 +86,7 @@
             // 
             // buttonExcluirCategoria
             // 
+            buttonExcluirCategoria.Enabled = false;
             buttonExcluirCategoria.Location = new Point(99, 164);
             buttonExcluirCategoria.Name = "buttonExcluirCategoria";
             buttonExcluirCategoria.Size = new Size(75, 23);
@@ -94,6 +96,7 @@
             // 
             // buttonAlterarCategoria
             // 
+            buttonAlterarCategoria.Enabled = false;
             buttonAlterarCategoria.Location = new Point(180, 135);
             buttonAlterarCategoria.Name = "buttonAlterarCategoria";
             buttonAlterarCategoria.Size = new Size(75, 23);
@@ -112,6 +115,7 @@
             // 
             // buttonSalvarCategoria
             // 
+            buttonSalvarCategoria.Enabled = false;
             buttonSalvarCategoria.Location = new Point(18, 164);
             buttonSalvarCategoria.Name = "buttonSalvarCategoria";
             buttonSalvarCategoria.Size = new Size(75, 23);

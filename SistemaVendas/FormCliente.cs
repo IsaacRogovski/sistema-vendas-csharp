@@ -20,5 +20,9 @@ namespace SistemaVendas
             this.Close();
         }
 
+        private void buttonExcluirCliente_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
