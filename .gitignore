@@ -1,29 +1,38 @@
+
 # Visual Studio
 .vs/
-*.suo
 *.user
+*.suo
 *.userosscache
 *.sln.docstates
 
-# Build
-bin/
-obj/
-
-# Compilação
-Debug/
-Release/
+# Build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
 x64/
 x86/
 
-# Arquivos de cache
+# Visual Studio cache and generated files
 *.cache
-
-# Logs
+*.ilk
+*.pdb
+*.ipch
 *.log
 
-# Arquivos temporários
+# Temporary files
 *.tmp
+*.temp
+~$*
 
-# Sistema operacional
-Thumbs.db
+# NuGet packages (restored automatically)
+packages/
+
+# Operating system files
 .DS_Store
+Thumbs.db
+desktop.ini
+
+# Publish output
+publish/
