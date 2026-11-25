@@ -35,12 +35,10 @@
             label2 = new Label();
             textBoxNomeCliente = new TextBox();
             label3 = new Label();
-            textBoxCPFCliente = new TextBox();
             label4 = new Label();
             textBoxRuaCliente = new TextBox();
             label5 = new Label();
             label6 = new Label();
-            textBoxRGCliente = new TextBox();
             label7 = new Label();
             textBoxCidadeCliente = new TextBox();
             label8 = new Label();
@@ -48,13 +46,10 @@
             label9 = new Label();
             textBoxComplementoCliente = new TextBox();
             label10 = new Label();
-            textBoxNumeroCliente = new TextBox();
             label11 = new Label();
             label12 = new Label();
-            textBoxTelefoneCliente = new TextBox();
             label13 = new Label();
             label14 = new Label();
-            textBoxCEPCliente = new TextBox();
             comboBoxEstadoCliente = new ComboBox();
             comboBoxStatusCliente = new ComboBox();
             label15 = new Label();
@@ -66,6 +61,11 @@
             buttonSalvarCliente = new Button();
             buttonNovoCliente = new Button();
             groupBox1 = new GroupBox();
+            maskedTextBoxCEPCliente = new MaskedTextBox();
+            textBoxNumeroCliente = new TextBox();
+            maskedTextBoxTelefoneCliente = new MaskedTextBox();
+            maskedTextBoxCPFCliente = new MaskedTextBox();
+            maskedTextBoxRGCliente = new MaskedTextBox();
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
@@ -73,15 +73,16 @@
             // 
             comboBoxUFRGCliente.FormattingEnabled = true;
             comboBoxUFRGCliente.Items.AddRange(new object[] { "AC", "AL", "AP", "AM", "BA", "CE", "DF", "ES", "GO", "MT", "MS", "MG", "PA ", "PB", "PR", "PE", "PI", "RJ", "RN", "RS", "RO", "RR", "SC", "SP", "SE", "TO" });
-            comboBoxUFRGCliente.Location = new Point(119, 199);
+            comboBoxUFRGCliente.Location = new Point(170, 199);
             comboBoxUFRGCliente.Name = "comboBoxUFRGCliente";
-            comboBoxUFRGCliente.Size = new Size(100, 23);
+            comboBoxUFRGCliente.Size = new Size(49, 23);
             comboBoxUFRGCliente.TabIndex = 0;
             // 
             // textBoxCodigoCliente
             // 
             textBoxCodigoCliente.Location = new Point(119, 43);
             textBoxCodigoCliente.Name = "textBoxCodigoCliente";
+            textBoxCodigoCliente.ReadOnly = true;
             textBoxCodigoCliente.Size = new Size(100, 23);
             textBoxCodigoCliente.TabIndex = 2;
             // 
@@ -119,13 +120,6 @@
             label3.TabIndex = 7;
             label3.Text = "CPF";
             // 
-            // textBoxCPFCliente
-            // 
-            textBoxCPFCliente.Location = new Point(119, 118);
-            textBoxCPFCliente.Name = "textBoxCPFCliente";
-            textBoxCPFCliente.Size = new Size(100, 23);
-            textBoxCPFCliente.TabIndex = 6;
-            // 
             // label4
             // 
             label4.AutoSize = true;
@@ -159,13 +153,6 @@
             label6.Size = new Size(22, 15);
             label6.TabIndex = 9;
             label6.Text = "RG";
-            // 
-            // textBoxRGCliente
-            // 
-            textBoxRGCliente.Location = new Point(119, 158);
-            textBoxRGCliente.Name = "textBoxRGCliente";
-            textBoxRGCliente.Size = new Size(100, 23);
-            textBoxRGCliente.TabIndex = 8;
             // 
             // label7
             // 
@@ -224,13 +211,6 @@
             label10.TabIndex = 15;
             label10.Text = "Número";
             // 
-            // textBoxNumeroCliente
-            // 
-            textBoxNumeroCliente.Location = new Point(224, 110);
-            textBoxNumeroCliente.Name = "textBoxNumeroCliente";
-            textBoxNumeroCliente.Size = new Size(100, 23);
-            textBoxNumeroCliente.TabIndex = 14;
-            // 
             // label11
             // 
             label11.AutoSize = true;
@@ -248,13 +228,6 @@
             label12.Size = new Size(52, 15);
             label12.TabIndex = 23;
             label12.Text = "Telefone";
-            // 
-            // textBoxTelefoneCliente
-            // 
-            textBoxTelefoneCliente.Location = new Point(119, 240);
-            textBoxTelefoneCliente.Name = "textBoxTelefoneCliente";
-            textBoxTelefoneCliente.Size = new Size(100, 23);
-            textBoxTelefoneCliente.TabIndex = 22;
             // 
             // label13
             // 
@@ -274,13 +247,6 @@
             label14.TabIndex = 27;
             label14.Text = "CEP";
             // 
-            // textBoxCEPCliente
-            // 
-            textBoxCEPCliente.Location = new Point(61, 194);
-            textBoxCEPCliente.Name = "textBoxCEPCliente";
-            textBoxCEPCliente.Size = new Size(100, 23);
-            textBoxCEPCliente.TabIndex = 26;
-            // 
             // comboBoxEstadoCliente
             // 
             comboBoxEstadoCliente.DisplayMember = "wa";
@@ -288,12 +254,13 @@
             comboBoxEstadoCliente.Items.AddRange(new object[] { "AC", "AL", "AP", "AM", "BA", "CE", "DF", "ES", "GO", "MT", "MS", "MG", "PA ", "PB", "PR", "PE", "PI", "RJ", "RN", "RS", "RO", "RR", "SC", "SP", "SE", "TO" });
             comboBoxEstadoCliente.Location = new Point(61, 32);
             comboBoxEstadoCliente.Name = "comboBoxEstadoCliente";
-            comboBoxEstadoCliente.Size = new Size(100, 23);
+            comboBoxEstadoCliente.Size = new Size(48, 23);
             comboBoxEstadoCliente.TabIndex = 30;
             // 
             // comboBoxStatusCliente
             // 
             comboBoxStatusCliente.FormattingEnabled = true;
+            comboBoxStatusCliente.Items.AddRange(new object[] { "ATIVO", "DESATIVO" });
             comboBoxStatusCliente.Location = new Point(119, 283);
             comboBoxStatusCliente.Name = "comboBoxStatusCliente";
             comboBoxStatusCliente.Size = new Size(100, 23);
@@ -327,15 +294,18 @@
             // 
             // buttonExcluirCliente
             // 
+            buttonExcluirCliente.Enabled = false;
             buttonExcluirCliente.Location = new Point(295, 312);
             buttonExcluirCliente.Name = "buttonExcluirCliente";
             buttonExcluirCliente.Size = new Size(75, 23);
             buttonExcluirCliente.TabIndex = 46;
             buttonExcluirCliente.Text = "Excluir";
             buttonExcluirCliente.UseVisualStyleBackColor = true;
+            buttonExcluirCliente.Click += buttonExcluirCliente_Click;
             // 
             // buttonAlterarCliente
             // 
+            buttonAlterarCliente.Enabled = false;
             buttonAlterarCliente.Location = new Point(457, 283);
             buttonAlterarCliente.Name = "buttonAlterarCliente";
             buttonAlterarCliente.Size = new Size(75, 23);
@@ -354,6 +324,7 @@
             // 
             // buttonSalvarCliente
             // 
+            buttonSalvarCliente.Enabled = false;
             buttonSalvarCliente.Location = new Point(376, 312);
             buttonSalvarCliente.Name = "buttonSalvarCliente";
             buttonSalvarCliente.Size = new Size(75, 23);
@@ -372,6 +343,7 @@
             // 
             // groupBox1
             // 
+            groupBox1.Controls.Add(maskedTextBoxCEPCliente);
             groupBox1.Controls.Add(label4);
             groupBox1.Controls.Add(textBoxNumeroCliente);
             groupBox1.Controls.Add(label10);
@@ -383,7 +355,6 @@
             groupBox1.Controls.Add(textBoxCidadeCliente);
             groupBox1.Controls.Add(label7);
             groupBox1.Controls.Add(comboBoxEstadoCliente);
-            groupBox1.Controls.Add(textBoxCEPCliente);
             groupBox1.Controls.Add(label13);
             groupBox1.Controls.Add(label14);
             groupBox1.Location = new Point(234, 27);
@@ -393,11 +364,53 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Endereço";
             // 
+            // maskedTextBoxCEPCliente
+            // 
+            maskedTextBoxCEPCliente.Location = new Point(61, 189);
+            maskedTextBoxCEPCliente.Mask = "00000-000";
+            maskedTextBoxCEPCliente.Name = "maskedTextBoxCEPCliente";
+            maskedTextBoxCEPCliente.Size = new Size(75, 23);
+            maskedTextBoxCEPCliente.TabIndex = 31;
+            // 
+            // textBoxNumeroCliente
+            // 
+            textBoxNumeroCliente.Location = new Point(224, 110);
+            textBoxNumeroCliente.Name = "textBoxNumeroCliente";
+            textBoxNumeroCliente.Size = new Size(100, 23);
+            textBoxNumeroCliente.TabIndex = 14;
+            // 
+            // maskedTextBoxTelefoneCliente
+            // 
+            maskedTextBoxTelefoneCliente.Location = new Point(119, 240);
+            maskedTextBoxTelefoneCliente.Mask = "(99) 00000-0000";
+            maskedTextBoxTelefoneCliente.Name = "maskedTextBoxTelefoneCliente";
+            maskedTextBoxTelefoneCliente.Size = new Size(100, 23);
+            maskedTextBoxTelefoneCliente.TabIndex = 32;
+            // 
+            // maskedTextBoxCPFCliente
+            // 
+            maskedTextBoxCPFCliente.Location = new Point(119, 118);
+            maskedTextBoxCPFCliente.Mask = "000.000.000-00";
+            maskedTextBoxCPFCliente.Name = "maskedTextBoxCPFCliente";
+            maskedTextBoxCPFCliente.Size = new Size(100, 23);
+            maskedTextBoxCPFCliente.TabIndex = 32;
+            // 
+            // maskedTextBoxRGCliente
+            // 
+            maskedTextBoxRGCliente.Location = new Point(119, 158);
+            maskedTextBoxRGCliente.Mask = "00.000.000-0";
+            maskedTextBoxRGCliente.Name = "maskedTextBoxRGCliente";
+            maskedTextBoxRGCliente.Size = new Size(100, 23);
+            maskedTextBoxRGCliente.TabIndex = 32;
+            // 
             // FormCliente
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(591, 365);
+            Controls.Add(maskedTextBoxRGCliente);
+            Controls.Add(maskedTextBoxCPFCliente);
+            Controls.Add(maskedTextBoxTelefoneCliente);
             Controls.Add(groupBox1);
             Controls.Add(buttonFecharCliente);
             Controls.Add(buttonExcluirCliente);
@@ -410,12 +423,9 @@
             Controls.Add(comboBoxStatusCliente);
             Controls.Add(label11);
             Controls.Add(label12);
-            Controls.Add(textBoxTelefoneCliente);
             Controls.Add(label5);
             Controls.Add(label6);
-            Controls.Add(textBoxRGCliente);
             Controls.Add(label3);
-            Controls.Add(textBoxCPFCliente);
             Controls.Add(label2);
             Controls.Add(textBoxNomeCliente);
             Controls.Add(label1);
@@ -439,12 +449,10 @@
         private Label label2;
         private TextBox textBoxNomeCliente;
         private Label label3;
-        private TextBox textBoxCPFCliente;
         private Label label4;
         private TextBox textBoxRuaCliente;
         private Label label5;
         private Label label6;
-        private TextBox textBoxRGCliente;
         private Label label7;
         private TextBox textBoxCidadeCliente;
         private Label label8;
@@ -452,7 +460,6 @@
         private Label label9;
         private TextBox textBoxComplementoCliente;
         private Label label10;
-        private TextBox textBoxNumeroCliente;
         private Label label11;
         private Label label12;
         private TextBox textBoxTelefoneCliente;
@@ -470,5 +477,10 @@
         private Button buttonSalvarCliente;
         private Button buttonNovoCliente;
         private GroupBox groupBox1;
+        private MaskedTextBox maskedTextBoxCEPCliente;
+        private MaskedTextBox maskedTextBoxTelefoneCliente;
+        private TextBox textBoxNumeroCliente;
+        private MaskedTextBox maskedTextBoxCPFCliente;
+        private MaskedTextBox maskedTextBoxRGCliente;
     }
 }

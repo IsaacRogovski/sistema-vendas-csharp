@@ -121,6 +121,7 @@
             // 
             // buttonSalvarProduto
             // 
+            buttonSalvarProduto.Enabled = false;
             buttonSalvarProduto.Location = new Point(109, 215);
             buttonSalvarProduto.Name = "buttonSalvarProduto";
             buttonSalvarProduto.Size = new Size(75, 23);
@@ -130,6 +131,7 @@
             // 
             // buttonAlterarProduto
             // 
+            buttonAlterarProduto.Enabled = false;
             buttonAlterarProduto.Location = new Point(190, 186);
             buttonAlterarProduto.Name = "buttonAlterarProduto";
             buttonAlterarProduto.Size = new Size(75, 23);
@@ -158,6 +160,7 @@
             // 
             // buttonExcluirProduto
             // 
+            buttonExcluirProduto.Enabled = false;
             buttonExcluirProduto.Location = new Point(28, 215);
             buttonExcluirProduto.Name = "buttonExcluirProduto";
             buttonExcluirProduto.Size = new Size(75, 23);

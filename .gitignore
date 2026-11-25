@@ -1,0 +1,29 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build
+bin/
+obj/
+
+# Compilação
+Debug/
+Release/
+x64/
+x86/
+
+# Arquivos de cache
+*.cache
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.tmp
+
+# Sistema operacional
+Thumbs.db
+.DS_Store
