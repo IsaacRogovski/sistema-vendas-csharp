@@ -1,3 +1,6 @@
+using Microsoft.Data.SqlClient;
+using SistemaVendas.Dados;
+
 namespace SistemaVendas
 {
     public partial class FormPrincipal : Form
@@ -89,6 +92,30 @@ namespace SistemaVendas
             formSobre.MdiParent = this;
 
             formSobre.Show();
+        }
+
+        private void FormPrincipal_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                using SqlConnection conexao = Conexao.ObterConexao();
+
+                conexao.Open();
+
+                MessageBox.Show("Conexão com o banco realizada com sucesso!");
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(
+                    "Erro ao conectar com o banco:\n" + ex.Message
+                );
+            }
         }
     }
 }
