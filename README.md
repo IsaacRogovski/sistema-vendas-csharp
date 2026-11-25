@@ -26,56 +26,51 @@ O projeto tem como objetivo implementar operações CRUD (Create, Read, Update e
 
 > O projeto está em desenvolvimento. As funcionalidades serão implementadas progressivamente.
 
-## Pré-requisitos
+### Pré-requisitos
 
-Para executar o projeto, será necessário instalar:
-
-- [Visual Studio](https://visualstudio.microsoft.com/)
+- Windows 10 ou Windows 11
+- Visual Studio compatível com .NET 10
+- SDK do .NET 10
 - Workload **Desenvolvimento para desktop com .NET**
 - Microsoft SQL Server
-- SQL Server Management Studio (SSMS), recomendado para administrar o banco de dados
+- SQL Server Management Studio (SSMS), recomendado
 
-## Como executar
+### Como executar
 
-### 1. Clonar o repositório
+#### 1. Clonar o repositório
 
 ```bash
 git clone https://github.com/IsaacRogovski/sistema-vendas-csharp.git
 ```
 
-Entre na pasta do projeto:
-
 ```bash
 cd sistema-vendas-csharp
 ```
 
-### 2. Abrir o projeto
+#### 2. Abrir a solução
 
-Abra o arquivo `.slnx` na pasta do projeto utilizando o Visual Studio.
+Abra o arquivo `SistemaVendas.slnx` utilizando o Visual Studio.
 
-Caso necessário, aguarde a restauração automática dos pacotes NuGet.
+Aguarde a restauração automática das dependências NuGet.
 
-### 3. Configurar o banco de dados
+#### 3. Configurar o banco de dados
 
-- Abra o SQL Server Management Studio.
-- Conecte-se à sua instância do SQL Server.
-- Execute o script SQL disponibilizado neste repositório para criar o banco de dados e suas tabelas.
+Após a implementação do banco:
 
-> O script de criação do banco de dados será disponibilizado na pasta `Database` após sua implementação.
+1. Abra o SQL Server Management Studio.
+2. Conecte-se à instância do SQL Server.
+3. Execute o script de criação do banco disponibilizado na pasta `Database`.
 
-### 4. Configurar a conexão
+#### 4. Configurar a conexão
 
-Configure a string de conexão para apontar para sua instância local do SQL Server.
+Configure a conexão com o SQL Server conforme as instruções do projeto.
 
-A configuração de conexão poderá variar de acordo com a instalação de cada usuário.
+Não utilize credenciais pessoais ou senhas expostas no repositório.
 
-### 5. Executar o sistema
+#### 5. Executar
 
-No Visual Studio:
+Defina `SistemaVendas` como projeto de inicialização e execute pelo Visual Studio utilizando `F5` ou `Ctrl + F5`.
 
-1. Defina o projeto Windows Forms como projeto de inicialização.
-2. Compile a solução.
-3. Execute utilizando `F5` ou `Ctrl + F5`.
 
 ## Estrutura do projeto
 
