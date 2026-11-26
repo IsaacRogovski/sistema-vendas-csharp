@@ -39,6 +39,7 @@
             buttonConsultarCategoria = new Button();
             buttonSalvarCategoria = new Button();
             buttonNovoCategoria = new Button();
+            comboBoxTeste = new ComboBox();
             SuspendLayout();
             // 
             // label2
@@ -111,6 +112,7 @@
             buttonConsultarCategoria.TabIndex = 50;
             buttonConsultarCategoria.Text = "Consultar";
             buttonConsultarCategoria.UseVisualStyleBackColor = true;
+            buttonConsultarCategoria.Click += buttonConsultarCategoria_Click;
             // 
             // buttonSalvarCategoria
             // 
@@ -131,11 +133,20 @@
             buttonNovoCategoria.Text = "Novo";
             buttonNovoCategoria.UseVisualStyleBackColor = true;
             // 
+            // comboBoxTeste
+            // 
+            comboBoxTeste.FormattingEnabled = true;
+            comboBoxTeste.Location = new Point(68, 26);
+            comboBoxTeste.Name = "comboBoxTeste";
+            comboBoxTeste.Size = new Size(121, 23);
+            comboBoxTeste.TabIndex = 54;
+            // 
             // FormCategoria
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(284, 220);
+            Controls.Add(comboBoxTeste);
             Controls.Add(buttonFecharCategoria);
             Controls.Add(buttonExcluirCategoria);
             Controls.Add(buttonAlterarCategoria);
@@ -166,5 +177,6 @@
         private Button buttonConsultarCategoria;
         private Button buttonSalvarCategoria;
         private Button buttonNovoCategoria;
+        private ComboBox comboBoxTeste;
     }
 }

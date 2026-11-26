@@ -116,6 +116,6 @@ namespace SistemaVendas
                     "Erro ao conectar com o banco:\n" + ex.Message
                 );
             }
-        }
+        } 
     }
 }

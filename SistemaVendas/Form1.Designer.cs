@@ -70,7 +70,7 @@
             // 
             clientesToolStripMenuItem.Image = Properties.Resources.do_utilizador;
             clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
-            clientesToolStripMenuItem.Size = new Size(125, 22);
+            clientesToolStripMenuItem.Size = new Size(180, 22);
             clientesToolStripMenuItem.Text = "Clientes";
             clientesToolStripMenuItem.Click += clientesToolStripMenuItem_Click;
             // 
@@ -78,7 +78,7 @@
             // 
             categoriaToolStripMenuItem.Image = Properties.Resources.camadas;
             categoriaToolStripMenuItem.Name = "categoriaToolStripMenuItem";
-            categoriaToolStripMenuItem.Size = new Size(125, 22);
+            categoriaToolStripMenuItem.Size = new Size(180, 22);
             categoriaToolStripMenuItem.Text = "Categoria";
             categoriaToolStripMenuItem.Click += categoriaToolStripMenuItem_Click;
             // 
@@ -86,7 +86,7 @@
             // 
             produtosToolStripMenuItem.Image = Properties.Resources.cubo;
             produtosToolStripMenuItem.Name = "produtosToolStripMenuItem";
-            produtosToolStripMenuItem.Size = new Size(125, 22);
+            produtosToolStripMenuItem.Size = new Size(180, 22);
             produtosToolStripMenuItem.Text = "Produtos";
             produtosToolStripMenuItem.Click += produtosToolStripMenuItem_Click;
             // 
@@ -176,11 +176,11 @@
             // 
             // button1
             // 
-            button1.Location = new Point(170, 140);
+            button1.Location = new Point(12, 27);
             button1.Name = "button1";
-            button1.Size = new Size(75, 23);
+            button1.Size = new Size(100, 23);
             button1.TabIndex = 2;
-            button1.Text = "button1";
+            button1.Text = "TESTAR BANCO";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
